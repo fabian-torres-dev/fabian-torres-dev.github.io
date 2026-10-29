@@ -9,7 +9,7 @@
   --color-border: #262b33;
   --color-text: #e8e6e1;
   --color-text-muted: #9aa0a8;
-  --color-accent: #c9a86a;
+  --color-accent: #474796; /*#c9a86a;*/
   --color-accent-soft: rgba(201, 168, 106, 0.12);
 
   --font-display: "Fraunces", Georgia, serif;
@@ -77,7 +77,7 @@ img {
    ========================================================================== */
 
 .disclaimer {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   gap: 1rem;
@@ -219,7 +219,7 @@ img {
 }
 
 .btn-primary:hover {
-  background: #d8ba80;
+  background: #0c5bb6 /*#d8ba80*/;
 }
 
 .btn-ghost {

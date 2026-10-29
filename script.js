@@ -5,11 +5,12 @@
    ========================================================================== */
 
 const disclaimer = document.getElementById("disclaimer");
-const disclaimerClose = document.getElementById("disclaimerClose");
-
+//const disclaimerClose = document.getElementById("disclaimerClose");
+/*
 disclaimerClose.addEventListener("click", () => {
   disclaimer.remove();
 });
+*/
 
 /* ==========================================================================
    Mobile navigation
@@ -97,12 +98,12 @@ contactForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
   if (!contactForm.checkValidity()) {
-    formStatus.textContent = "Por favor completa todos los campos correctamente.";
+    formStatus.textContent = "Todos los campos del formulario son obligatorios.";
     return;
   }
 
   // Placeholder behavior: replace with a real submission endpoint later.
-  formStatus.textContent = "¡Gracias! Este formulario es de demostración y no envía datos.";
+  formStatus.textContent = "Por el momento este formulario no recibe información.";
   contactForm.reset();
 });
 
